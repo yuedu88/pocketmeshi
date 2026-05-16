@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pocket Meishi | 利用規約</title>
+  <meta name="description" content="Pocket Meishi の利用規約。アプリの利用条件、サブスクリプション、ユーザー責任、禁止事項、免責事項について説明します。">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#0b5f67">
+  <meta property="og:title" content="Pocket Meishi | 利用規約">
+  <meta property="og:description" content="Pocket Meishi の利用条件、サブスクリプション、ユーザー責任、Apple EULA との関係について。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="../namecard/applogo.jpeg">
+  <style>
+    :root {
+      --bg: #f5f7f6;
+      --surface: #ffffff;
+      --surface-2: #eef4f2;
+      --text: #112027;
+      --muted: #5e6c73;
+      --line: rgba(17, 32, 39, 0.10);
+      --accent: #0b5f67;
+      --accent-2: #ea7b5a;
+      --shadow: 0 28px 70px rgba(18, 33, 38, 0.10);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--text);
+      background:
+        linear-gradient(180deg, #ffffff 0%, #f6f8f7 38%, #eef4f2 100%);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+      line-height: 1.8;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    a:hover { color: var(--accent); }
+    img { display: block; max-width: 100%; }
+
+    .wrap {
+      width: min(960px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(18px);
+      background: rgba(245, 247, 246, 0.82);
+      border-bottom: 1px solid rgba(17, 32, 39, 0.06);
+    }
+
+    .topbar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 14px 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 0;
+    }
+
+    .brand img {
+      width: 52px;
+      height: 52px;
+      border-radius: 16px;
+      box-shadow: 0 8px 18px rgba(17, 32, 39, 0.12);
+      object-fit: cover;
+    }
+
+    .brand-name {
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: 0.01em;
+    }
+
+    .brand-sub {
+      margin-top: 2px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .hero {
+      padding: 54px 0 26px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(11, 95, 103, 0.08);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+
+    h1 {
+      margin: 18px 0 12px;
+      font-size: clamp(38px, 6vw, 64px);
+      line-height: 1;
+      letter-spacing: -0.03em;
+    }
+
+    .lead {
+      margin: 0;
+      max-width: 68ch;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .terms-card {
+      margin: 18px 0 44px;
+      padding: clamp(24px, 4vw, 42px);
+      border-radius: 28px;
+      background: rgba(255, 255, 255, 0.86);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+
+    .date-info {
+      display: grid;
+      gap: 6px;
+      margin-bottom: 26px;
+      padding: 16px 18px;
+      border-radius: 18px;
+      background: var(--surface-2);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    h2 {
+      margin: 34px 0 12px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--line);
+      color: var(--accent);
+      font-size: 22px;
+      letter-spacing: -0.01em;
+    }
+
+    p { margin: 12px 0; }
+    ul { margin: 12px 0; padding-left: 22px; }
+    li { margin: 8px 0; }
+
+    .notice {
+      margin-top: 28px;
+      padding: 16px 18px;
+      border-radius: 18px;
+      background: rgba(234, 123, 90, 0.10);
+      border: 1px solid rgba(234, 123, 90, 0.22);
+      color: #6a3b2c;
+      font-size: 14px;
+    }
+
+    footer {
+      padding: 22px 0 38px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .footer-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      border-top: 1px solid rgba(17, 32, 39, 0.08);
+      padding-top: 18px;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    @media (max-width: 640px) {
+      .wrap { width: min(100% - 24px, 960px); }
+      .nav { display: none; }
+      .hero { padding-top: 34px; }
+      .terms-card { border-radius: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="index.html" aria-label="Pocket Meishi ホーム">
+        <img src="../namecard/applogo.jpeg" alt="Pocket Meishi ロゴ">
+        <span>
+          <span class="brand-name">Pocket Meishi</span>
+          <span class="brand-sub">ポケット名刺</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="主要ナビゲーション">
+        <a href="index.html#screens">画面</a>
+        <a href="index.html#features">機能</a>
+        <a href="privacy.html">プライバシーポリシー</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="eyebrow">Terms of Use</div>
+        <h1>利用規約</h1>
+        <p class="lead">本利用規約は、Pocket Meishi の利用条件を定めるものです。アプリを利用することで、本規約および Apple の標準利用許諾契約に同意したものとみなされます。</p>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <article class="terms-card">
+        <div class="date-info">
+          <div><strong>アプリ名:</strong> Pocket Meishi</div>
+          <div><strong>最終更新日:</strong> 2026年5月16日</div>
+          <div><strong>連絡先:</strong> <a href="mailto:hxx_shdt@126.com">hxx_shdt@126.com</a></div>
+        </div>
+
+        <h2>1. 規約への同意</h2>
+        <p>ユーザーは、Pocket Meishi をダウンロード、インストール、または利用することにより、本利用規約に同意したものとします。本規約に同意できない場合は、アプリを利用しないでください。</p>
+
+        <h2>2. サービス内容</h2>
+        <p>Pocket Meishi は、名刺のスキャン、OCR、一覧表示、詳細編集、CSV 書き出し、iOS 連絡先への保存、自分の名刺の共有、日常備忘、iCloud 同期などを提供する名刺管理アプリです。</p>
+        <p>提供される機能は、端末、OS バージョン、権限設定、ネットワーク状態、サブスクリプション状態により異なる場合があります。</p>
+
+        <h2>3. ライセンス</h2>
+        <p>当方は、ユーザーに対し、個人的かつ非独占的、譲渡不能、取消可能な範囲で、本アプリを利用する権利を許諾します。本アプリの著作権、商標、その他の知的財産権は、当方または正当な権利者に帰属します。</p>
+
+        <h2>4. Apple EULA との関係</h2>
+        <p>本アプリは Apple の App Store を通じて配布されます。Apple の標準エンドユーザー使用許諾契約も適用されます。</p>
+        <p><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">Apple 標準使用許諾契約（EULA）</a></p>
+
+        <h2>5. サブスクリプションと購入</h2>
+        <ul>
+          <li>一部の機能または保存上限の解除には、月額、年額、または買い切りの購入が必要となる場合があります。</li>
+          <li>購入、課金、解約、返金、購入の復元は Apple ID および App Store の仕組みに従って処理されます。</li>
+          <li>サブスクリプションは、ユーザーが Apple ID の設定から解約しない限り、自動更新される場合があります。</li>
+          <li>価格、提供内容、無料枠、機能制限は、アプリ内表示または App Store 表示に基づきます。</li>
+        </ul>
+
+        <h2>6. ユーザーの責任</h2>
+        <ul>
+          <li>ユーザーは、自分が保存、編集、共有、書き出しを行う名刺データについて責任を負います。</li>
+          <li>第三者の名刺情報を取り扱う場合、必要に応じて本人の同意や適用法令を確認してください。</li>
+          <li>CSV、QR、URL、連絡先保存などによりデータを外部へ持ち出す場合、共有先や保存先の管理はユーザーの責任となります。</li>
+          <li>端末の紛失、誤操作、同期設定、バックアップ設定によるデータの消失や漏えいを防ぐため、適切な管理を行ってください。</li>
+        </ul>
+
+        <h2>7. 禁止事項</h2>
+        <p>ユーザーは、以下の行為を行ってはなりません。</p>
+        <ul>
+          <li>法令、公序良俗、第三者の権利に反する目的で本アプリを利用すること。</li>
+          <li>権限なく第三者の個人情報、名刺情報、連絡先情報を収集、保存、共有すること。</li>
+          <li>本アプリをリバースエンジニアリング、改変、不正アクセス、過度な負荷をかける行為に利用すること。</li>
+          <li>当方、Apple、その他の第三者のサービス運営を妨害すること。</li>
+        </ul>
+
+        <h2>8. OCR と認識結果について</h2>
+        <p>OCR による文字認識および名刺項目の抽出は、画像品質、名刺デザイン、言語、フォント、照明、撮影角度などにより誤認識が発生する場合があります。ユーザーは、保存、共有、連絡先登録、CSV 書き出しの前に内容を確認してください。</p>
+
+        <h2>9. データ、同期、バックアップ</h2>
+        <p>本アプリは、端末内保存および iCloud 同期に対応しています。ただし、同期の可否や速度は、Apple のサービス状態、ネットワーク、端末設定、iCloud 容量などに依存します。当方は、データの完全な保存、同期、復元を保証しません。</p>
+
+        <h2>10. 免責事項</h2>
+        <ul>
+          <li>本アプリは「現状有姿」で提供されます。</li>
+          <li>当方は、本アプリが常に中断なく、エラーなく、すべての端末で利用できることを保証しません。</li>
+          <li>当方は、ユーザーのデータ入力、認識結果、共有操作、連絡先保存、CSV 書き出し、第三者サービス利用から生じる損害について、法令上認められる範囲で責任を負いません。</li>
+        </ul>
+
+        <h2>11. サービスの変更または終了</h2>
+        <p>当方は、必要に応じて、本アプリの機能、仕様、価格、提供条件を変更、追加、中断、終了することがあります。重要な変更がある場合は、アプリ内表示または本ページの更新により告知します。</p>
+
+        <h2>12. プライバシー</h2>
+        <p>データの取り扱いについては、<a href="privacy.html">プライバシーポリシー</a>をご確認ください。</p>
+
+        <h2>13. 規約の変更</h2>
+        <p>当方は、法令変更、機能変更、運用上の必要に応じて、本利用規約を更新する場合があります。更新後もアプリを利用する場合、変更後の規約に同意したものとみなされます。</p>
+
+        <h2>14. お問い合わせ</h2>
+        <p>本規約に関するご質問は、以下までお問い合わせください。</p>
+        <ul>
+          <li>メール: <a href="mailto:hxx_shdt@126.com">hxx_shdt@126.com</a></li>
+          <li>X / Twitter: <a href="https://x.com/createeem" target="_blank" rel="noopener noreferrer">https://x.com/createeem</a></li>
+        </ul>
+
+        <div class="notice">
+          本ページは、プロジェクトオーナー提供の参考内容をもとに、Pocket Meishi の現在の機能に合わせて作成されています。
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-row">
+      <div>pocketmeshi.com / Pocket Meishi</div>
+      <div class="footer-links">
+        <a href="index.html">ホーム</a>
+        <a href="privacy.html">プライバシーポリシー</a>
+        <a href="terms.html">利用規約</a>
+        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">Apple EULA</a>
+        <a href="mailto:hxx_shdt@126.com">連絡先メール</a>
+        <a href="https://x.com/createeem" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
